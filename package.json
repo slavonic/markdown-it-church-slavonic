@@ -1,0 +1,24 @@
+{
+  "name": "markdown-it-church-slavonic",
+  "version": "0.0.1",
+  "description": "Church Slavonic markdown flavor",
+  "author": {
+    "name": "Mike Kroutikov",
+    "email": "pgmmpk@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slavonic/markdown-it-church-slavonic"
+  },
+  "keywords": [
+    "church slavonic",
+    "markdown"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it-regexp": "^0.4.0"
+  }
+}
