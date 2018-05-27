@@ -1,0 +1,17 @@
+---
+desc: testing verse labels
+---
+
+smoke test
+.
+Hello {{1}}beautiful world!
+.
+<p>Hello <verse label="1" />beautiful world!</p>
+.
+
+assert that trailing spaces is removed
+.
+A quick {{A}} brown fox.
+.
+<p>A quick <verse label="A" />brown fox.</p>
+.

@@ -1,0 +1,12 @@
+---
+desc: testing verse labels
+---
+
+smoke test
+.
+Hello <<1>>beautiful world!
+A quick <<2:B>>brown fox jumped over...
+.
+<p>Hello <anchor number="1" />beautiful world!
+A quick <anchor number="2" label="B" />brown fox jumped over...</p>
+.
