@@ -1,0 +1,7 @@
+coverage/
+support/
+test/
+Makefile
+.*
+*.log
+
