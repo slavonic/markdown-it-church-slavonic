@@ -1,4 +1,6 @@
 # Church Slavonic flavor of Markdown
+[![Build Status](https://travis-ci.org/slavonic/markdown-it-church-slavonic.svg?branch=master)](https://travis-ci.org/slavonic/markdown-it-church-slavonic)
+[![Coverage Status](https://coveralls.io/repos/github/slavonic/markdown-it-church-slavonic/badge.svg?branch=master)](https://coveralls.io/github/slavonic/markdown-it-church-slavonic?branch=master)
 
 An extension to `markdown-it` engine that adds Church Slavonic syntax features.
 
