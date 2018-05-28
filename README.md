@@ -47,7 +47,7 @@ When page label is different:
 ### Margin verse anchors
 
 ```
-((а))Господи не введи меня в напасть. ((в))Господи даждь мне мысль благу.
+{{а}}Господи не введи меня в напасть. {{в}}Господи даждь мне мысль благу.
 ```
 
 ### More to come
@@ -55,8 +55,8 @@ When page label is different:
 ## Programmatic use
 
 ```
-const md = new require('markdown-it')();
-const cuPlugin = require('markdown-it-chutch-slavonic');
+var md = new require('markdown-it')();
+var cuPlugin = require('markdown-it-chutch-slavonic');
 
 md.use(cuPlugin);
 
