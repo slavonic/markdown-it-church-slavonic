@@ -1,0 +1,14 @@
+---
+desc: smoke tests
+---
+
+paras
+.
+Hello beautiful world!
+
+And again, hello!
+.
+Hello beautiful world!
+
+And again, hello!
+.

@@ -1,0 +1,42 @@
+---
+desc: redbukva tests
+---
+
+smoke test
+.
+~Hello, world!
+.
+<p><redbukva>H</redbukva>ello, world!</p>
+.
+
+require leading blank
+.
+a~Hello
+.
+<p>a~Hello</p>
+.
+
+require next to be a non-blank
+.
+~ Hello
+.
+<p>~ Hello</p>
+.
+
+newline test
+.
+~Hello
+~Beautiful
+~World
+.
+<p><redbukva>H</redbukva>ello
+<redbukva>B</redbukva>eautiful
+<redbukva>W</redbukva>orld</p>
+.
+
+bukvitsa smoke
+.
+^Hello, bukvitsa!
+.
+<p><bukvitsa>H</bukvitsa>ello, bukvitsa!</p>
+.

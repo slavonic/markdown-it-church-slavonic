@@ -14,3 +14,15 @@ describe('markdown-it-church-slavonic', function () {
   generate(path.join(__dirname, 'fixtures/verse.txt'), { header: true }, md);
   generate(path.join(__dirname, 'fixtures/pagebreak.txt'), { header: true }, md);
 });
+
+describe('markdown-it-church-slavonic: XML renderer', function () {
+  var md = markdownit().use(plugin, { renderer: 'xml' });
+
+  generate(path.join(__dirname, 'fixtures/xml'), { header: true }, md);
+});
+
+describe('markdown-it-church-slavonic: LaTeX renderer', function () {
+  var md = markdownit().use(plugin, { renderer: 'latex' });
+
+  generate(path.join(__dirname, 'fixtures/latex'), { header: true }, md);
+});

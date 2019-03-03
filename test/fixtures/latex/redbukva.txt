@@ -1,0 +1,42 @@
+---
+desc: redbukva tests
+---
+
+smoke test
+.
+~Hello, world!
+.
+\cuKinovar{H}ello, world!
+.
+
+require leading blank
+.
+a~Hello
+.
+a~Hello
+.
+
+require next to be a non-blank
+.
+~ Hello
+.
+~ Hello
+.
+
+newline test
+.
+~Hello
+~Beautiful
+~World
+.
+\cuKinovar{H}ello
+\cuKinovar{B}eautiful
+\cuKinovar{W}orld
+.
+
+bukvitsa smoke
+.
+^Hello, bukvitsa!
+.
+\cuDropcaps{H}ello, bukvitsa!
+.

@@ -1,0 +1,12 @@
+---
+desc: testing page anchors
+---
+
+smoke test
+.
+Hello <<1>>beautiful world!
+A quick <<2:B>>brown fox jumped over...
+.
+Hello \anchor{1}beautiful world!
+A quick \anchor{2,B}brown fox jumped over...
+.

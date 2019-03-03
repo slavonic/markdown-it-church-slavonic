@@ -1,0 +1,17 @@
+---
+desc: testing verse labels
+---
+
+smoke test
+.
+Hello {{1}}beautiful world!
+.
+Hello \cuVerse{1}beautiful world!
+.
+
+assert that trailing spaces is removed
+.
+A quick {{A}} brown fox.
+.
+A quick \cuVerse{A}brown fox.
+.
