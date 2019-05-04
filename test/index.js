@@ -13,6 +13,7 @@ describe('markdown-it-church-slavonic', function () {
   generate(path.join(__dirname, 'fixtures/redbukva.txt'), { header: true }, md);
   generate(path.join(__dirname, 'fixtures/verse.txt'), { header: true }, md);
   generate(path.join(__dirname, 'fixtures/pagebreak.txt'), { header: true }, md);
+  generate(path.join(__dirname, 'fixtures/emphasis.txt'), { header: true }, md);
 });
 
 describe('markdown-it-church-slavonic: XML renderer', function () {
