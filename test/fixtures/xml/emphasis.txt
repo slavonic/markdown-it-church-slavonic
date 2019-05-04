@@ -1,0 +1,17 @@
+---
+desc: emphasis tests
+---
+
+kinovar test
+.
+Hello, *world*!
+.
+<p>Hello, <em>world</em>!</p>
+.
+
+stretch test
+.
+Hello, **world**!
+.
+<p>Hello, <strong>world</strong>!</p>
+.

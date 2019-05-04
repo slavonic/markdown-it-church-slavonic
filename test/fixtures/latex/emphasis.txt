@@ -1,0 +1,17 @@
+---
+desc: emphasis tests
+---
+
+kinovar test
+.
+Hello, *world*!
+.
+Hello, \cuKinovar{world}!
+.
+
+extension test
+.
+Hello, **world**!
+.
+Hello, \cuStretch{world}!
+.
