@@ -6,20 +6,17 @@ An extension to `markdown-it` engine that adds Church Slavonic syntax features.
 
 ## Features
 
-### Emphasis becomes red (kinvar color)
+### Use `=` to mark red (kinvar color)
 
-Markdown emphasis is now typeset with red font (not italic).
-
-```
-*Слава и ныне*
-```
-
-### Strong (bold) spans are wide
-
-Markdown string emphasis is typeset with wide font (expanded).
 
 ```
-__Глас а__
+=Слава и ныне=
+```
+
+### Use `+` to mark wide text (stretched)
+
+```
++Глас а+
 ```
 
 ### Leading tilda makes first letter red
@@ -77,4 +74,5 @@ console.log(out)
 
 ## Release notes
 
+* 1.0.0 Changed the way we markup kinovar and wide (to leave bold/italic alone)
 * 0.0.1 Initial release
