@@ -40,3 +40,10 @@ bukvitsa smoke
 .
 <p><bukvitsa>H</bukvitsa>ello, bukvitsa!</p>
 .
+
+redbukva and bold
+.
+**~Hello**
+.
+<p><strong><redbukva>H</redbukva>ello</strong></p>
+.

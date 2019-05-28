@@ -4,14 +4,21 @@ desc: emphasis tests
 
 kinovar test
 .
-Hello, *world*!
+Hello, =world=!
 .
-<p>Hello, <em>world</em>!</p>
+<p>Hello, <kinovar>world</kinovar>!</p>
 .
 
-stretch test
+wide test
 .
-Hello, **world**!
+Hello, +world+!
 .
-<p>Hello, <strong>world</strong>!</p>
+<p>Hello, <wide>world</wide>!</p>
+.
+
+mixed test
+.
+Hello, **+world+**!
+.
+<p>Hello, <strong><wide>world</wide></strong>!</p>
 .
