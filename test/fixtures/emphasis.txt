@@ -22,3 +22,17 @@ Hello, **+world+**!
 .
 <p>Hello, <strong><wide>world</wide></strong>!</p>
 .
+
+real life test 1
+.
+~Ѡ҆полчи́шасѧ сы́нове і҆и҃лєвы въ 
+.
+<p><redbukva>Ѡ҆</redbukva>полчи́шасѧ сы́нове і҆и҃лєвы въ</p>
+.
+
+real life test 2
+.
+**~Ѡ҆**полчи́шасѧ сы́нове і҆и҃лєвы въ 
+.
+<p><strong><redbukva>Ѡ҆</redbukva></strong>полчи́шасѧ сы́нове і҆и҃лєвы въ</p>
+.
